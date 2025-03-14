@@ -85,7 +85,7 @@ const sendEmail = (e) => {
     }else {
         
         // serviceID - templateID - #form - publicKey
-        emailjs.sendForm('service_8nagjb5', 'template_9p0ge5a', '#contact-form', 'rkBw6g_g7FNqvzlV1')
+        emailjs.sendForm('service_teh751u', 'template_9p0ge5a', '#contact-form', 'rkBw6g_g7FNqvzlV1')
             .then(() => {
                 // Show message and add color
                 contactMessage.classList.add('color-blue');
